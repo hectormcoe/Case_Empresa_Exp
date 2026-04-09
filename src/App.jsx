@@ -78,15 +78,7 @@ function App() {
           
         </section>
       ))}
-      {/*aqui tem que ser a lista de departamentos cadastrados, mas como não tem backend, vou deixar só a estrutura*/}
-      <section>
-        <TituloFormularioBranco>Departamentos Cadastrados:</TituloFormularioBranco>
-        <ul>
-          {departamentos.map((departamento) => (
-            <li key={departamento.id}>{departamento.nome}</li>
-          ))}
-        </ul>
-      </section>
+      
     </main>
   )
 }
