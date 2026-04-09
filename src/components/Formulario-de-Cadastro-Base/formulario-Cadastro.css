@@ -1,0 +1,50 @@
+.formCadastro {
+  background-color: #212121;
+  padding: 32px 28px;
+  border-radius: 16px;
+  width: 384px;
+  max-width: 90%;
+  margin: 64px auto;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: white;
+}
+
+.campoform-linha {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: none;
+  padding: 0%;
+  margin: 0%;
+}
+
+.campo-entrada-form {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  color:#4A4949;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  padding: 8px 16px;
+}
+
+.campo-entrada-form::placeholder {
+  color: #4A4949;
+}
+
+.campos-form-geral {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.acoes{
+  margin-top: 32px;
+  text-align:center;
+}
